@@ -7,6 +7,7 @@ public class calculadora {
 	
 	
 	int somar(int num , int num2 ) {
+		
 		return num + num2;
 	}
 
