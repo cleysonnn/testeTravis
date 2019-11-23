@@ -4,8 +4,8 @@ addons:
   sonarcloud:
     organization: "cleyson"
     token:
-      secure: "travis encrypt d0d5f25d0589e595b885ce8c8e0c6e8be9b956ea" # encrypted value of your token
+      secure: "fc388e7613e1742a8481704298ef175ea8326e2f" # encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=testeSOnarCloud
