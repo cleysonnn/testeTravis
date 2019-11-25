@@ -12,7 +12,7 @@ public class TestCalculadora {
 	
 	@Test
 	public void somar() {
-		assertEquals(4, cal.somar(5, 2));
+		assertEquals(2, cal.somar(5, 2))
 		
 	}
 	
